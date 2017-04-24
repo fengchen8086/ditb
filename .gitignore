@@ -10,3 +10,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# intellij idea project
+*.iml
+code-of-test/.idea
+
+# ad data and script
+scripts/ditb/conf/filters-ad/
+scripts/ditb/conf/local/workload-ad
+# output
+scripts/ditb/output/
+scripts/ditb/scripts/nohup.out
+# auto-gene eps
+gnuplot/output.eps
+
+# -Dlog4j.configuration=file:"/home/winter/softwares/hbase-1.2.1/conf/log4j.properties"
+
