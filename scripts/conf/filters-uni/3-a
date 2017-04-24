@@ -1,0 +1,6 @@
+# three dimensions
+# 10000 * 10000 in total
+# 0.3162277 for a, 0.1 for b, 0.03162277 for c, 0.001 in total
+f	a	INT	>=	0	<=	3000
+f	b	INT	>=	0	<=	3000
+f	c	INT	>=	0	<=	3000

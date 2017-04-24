@@ -1,0 +1,4 @@
+# now
+                eclipse.preferences.version=1
+                templateSourceDir=src/main/jamon
+                templateOutputDir=target/generated-jamon

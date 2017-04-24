@@ -1,5 +1,4 @@
-# ditb
-Distributed ordered table Indexing Technique Benchmark
+# DITB (Distributed ordered table Indexing Technique Benchmark)
 
 Source code based on Apache HBase 1.2.1.
 

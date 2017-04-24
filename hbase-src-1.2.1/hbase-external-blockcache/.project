@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>hbase-external-blockcache</name>
+  <comment>HBase module that provides out of process block cache.
+    Currently Memcached is the reference implementation for external block cache.
+
+    External block caches allow HBase to take advantage of other more complex caches that can live
+    longer than the HBase regionserver process and are not necessarily tied to a single computer
+    life time. However external block caches add in extra operational overhead. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>hbase-server</project>
+    <project>hbase-common</project>
+    <project>hbase-protocol</project>
+    <project>hbase-annotations</project>
+    <project>hbase-procedure</project>
+    <project>hbase-client</project>
+    <project>hbase-prefix-tree</project>
+    <project>hbase-hadoop-compat</project>
+    <project>hbase-hadoop2-compat</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

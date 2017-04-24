@@ -1,0 +1,12 @@
+# params for base class
+hbase.conf.path=/home/winter/softwares/hbase-1.2.1/conf/hbase-site.xml
+hbase.conf.path.additional=/home/winter/workspace/git/LCIndex-HBase-1.2.1/scripts/ditb/conf/winter-hbase.conf
+region.number=1
+lcindex.range.number=1000
+scan.filter.dir=/home/winter/workspace/git/LCIndex-HBase-1.2.1/scripts/ditb/conf/filters-uni
+scan.run.times=1
+scan.cache.size=100
+# params for uni
+total.columns.number=20
+record.number.per.file=100000
+max.index.column.value=10000

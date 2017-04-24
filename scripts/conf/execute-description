@@ -1,0 +1,2 @@
+# configurations for workload
+thread.qps.threshold=1000

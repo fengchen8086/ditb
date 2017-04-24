@@ -1,0 +1,23 @@
+# params for base class
+hbase.conf.path=/home/winter/softwares/hbase-1.2.1/conf/hbase-site.xml
+hbase.conf.path.additional=/home/winter/workspace/git/LCIndex-HBase-1.2.1/scripts/ditb/conf/winter-hbase.conf
+region.number=10
+lcindex.range.number=1000
+scan.run.times=1
+scan.cache.size=100
+# data format and op size
+total.columns.number=20
+total.operation.number=1000
+#column values can be uniform, zipfian(randomed zipfian) or lateset(0 has max, maxValue has smallest)
+## column a, 
+column.value.distribution.a=latest
+column.value.max.a=1000
+column.value.distribution.b=uniform
+column.value.max.b=1000
+# operation portion, used for generate data
+# read distribution can be uniform, zipfian(randomed zipfian) or latest (0 has smallest, current has max)
+op-write:portion=0.10
+op-read:portion=0.80,distribution=latest
+op-scan:portion=0.10,file=/home/winter/workspace/git/LCIndex-HBase-1.2.1/scripts/ditb/conf/filters-a/3-a
+#op-scan:portion=0.05,file=/home/winter/workspace/git/LCIndex-HBase-1.2.1/scripts/ditb/conf/filters-a/b
+#op-scan:portion=0.05,file=/home/winter/workspace/git/LCIndex-HBase-1.2.1/scripts/ditb/conf/filters-a/c

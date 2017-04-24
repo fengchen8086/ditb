@@ -1,0 +1,5 @@
+# three dimensions
+# 1%
+f	t	INT	>=	0	<=	9000000
+f	d	INT	>=	19930110	<=	19940220
+f	p	INT	>=	3	<=	3

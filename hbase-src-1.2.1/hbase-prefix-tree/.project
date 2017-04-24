@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>hbase-prefix-tree</name>
+  <comment>Prefix Tree Data Block Encoder. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>hbase-common</project>
+    <project>hbase-protocol</project>
+    <project>hbase-annotations</project>
+    <project>hbase-hadoop-compat</project>
+    <project>hbase-hadoop2-compat</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

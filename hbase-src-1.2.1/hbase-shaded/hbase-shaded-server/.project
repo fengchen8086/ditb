@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>hbase-shaded-server</name>
+  <comment>Module of HBase with most deps shaded. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>hbase-server</project>
+    <project>hbase-common</project>
+    <project>hbase-protocol</project>
+    <project>hbase-annotations</project>
+    <project>hbase-procedure</project>
+    <project>hbase-client</project>
+    <project>hbase-prefix-tree</project>
+    <project>hbase-hadoop-compat</project>
+    <project>hbase-hadoop2-compat</project>
+    <project>hbase-resource-bundle</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

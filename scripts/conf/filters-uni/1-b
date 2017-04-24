@@ -1,0 +1,4 @@
+# single dimension
+# max is 10000 * 10000, uniform
+# 0.01 for a
+f	a	INT	>=	0	<=	100

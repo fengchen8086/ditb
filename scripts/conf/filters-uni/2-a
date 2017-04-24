@@ -1,0 +1,5 @@
+# two dimensions
+# 10000 * 10000 in total
+# 0.01 in total, 0.3162277 in a, 0.03162277 in b
+f	a	INT	>=	0	<=	3000
+f	b	INT	>=	0	<=	3000

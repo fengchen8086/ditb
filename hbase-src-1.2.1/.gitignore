@@ -1,0 +1,6 @@
+# ignore files of target
+*/target/*
+*/*/target/*
+target/*
+*.iml
+/.idea
